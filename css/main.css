@@ -10227,3 +10227,43 @@ footer {
   padding: 30px 0;
   text-align: center;
 }
+
+@media screen and (max-width: 760px) {
+  section {
+    min-height: auto;
+  }
+
+  .hero .btn {
+    display: inline-block;
+    width: 200px;
+    padding: 0.5em;
+    margin-top: 50px;
+    margin-left: initial;
+    margin-right: 1rem;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    border: 3px solid #fff;
+    border-radius: 20px;
+    background-color: rgba(0, 173, 141, 0.8);
+  }
+
+  main h2 {
+    font-size: 1.5rem;
+  }
+  main .contact-section p,
+main .work-section p,
+main .skills-section p,
+main .about-section p {
+    font-size: 1rem;
+  }
+  main .skills-section .skills-container .skill {
+    width: 35%;
+  }
+  main .contact-section .email-link {
+    font-size: 1.5em;
+  }
+  main .contact-section .btn {
+    padding: 0.5em;
+  }
+}

@@ -316,3 +316,53 @@ footer {
     padding: 30px 0;
     text-align: center;
 }
+
+@media screen and (max-width:760px) {
+    section {
+        min-height: auto;
+    }
+    .hero {
+        .btn {
+            display: inline-block;
+            width: 200px;
+            padding: .5em;
+            margin-top: 50px;
+            margin-left: initial;
+            margin-right: 1rem;
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2em;
+            border: 3px solid #fff;
+            border-radius: 20px;
+            background-color: rgba(0, 173, 141, 0.8);
+        }
+    }
+    main {
+        h2 {
+            font-size: 1.5rem;
+        }
+        .contact-section,
+        .work-section,
+        .skills-section,
+        .about-section {
+            p {
+                font-size: 1rem;
+            }
+        }
+        .skills-section {
+            .skills-container {
+                .skill {
+                    width: 35%;
+                }
+            }
+        }
+        .contact-section {
+            .email-link {
+                font-size: 1.5em;
+            }
+            .btn {
+                padding: .5em;
+            }
+        }
+    }
+}
