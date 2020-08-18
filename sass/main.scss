@@ -322,6 +322,9 @@ footer {
         min-height: auto;
     }
     .hero {
+        .buttons {
+            justify-content: center;
+        }
         .btn {
             display: inline-block;
             width: 200px;
